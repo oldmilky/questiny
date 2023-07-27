@@ -1,0 +1,57 @@
+@import "/src/assets/styles/variables.scss";
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__wrap {
+    display: flex;
+    cursor: pointer;
+}
+
+.header__name {
+    margin: 15px 0 0;
+    text-shadow: 0 14px 20px rgba(0, 0, 0, 0.50);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: $white;
+}
+
+.header__icon {
+    cursor: pointer;
+}
+
+.header__wrapper {
+    display: flex;
+    gap: 50px;
+}
+
+.header__text {
+    color: $black;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 10px 0 0;
+    text-shadow: 0 14px 20px rgba(0, 0, 0, 0.50);
+    cursor: pointer;
+
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 0 0 35px 0;
+    text-align: start;
+}
+
+.header__text:first-child {
+    margin: 14px 0 0;
+}
+
+.header__buttons {
+    display: flex;
+}

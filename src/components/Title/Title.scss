@@ -1,0 +1,57 @@
+@import "/src/assets/styles/variables.scss";
+
+.title {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.title__title {
+    text-shadow: 0 14px 20px rgba(0, 0, 0, 0.50);
+    font-family: Montserrat;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: $white;
+    margin: 0;
+}
+
+.title__span {
+    color: $black;
+    margin: 0;
+}
+
+.title__subtitle {
+    text-shadow: 0 14px 20px rgba(0, 0, 0, 0.50);
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: $gray1;
+    margin: 0;
+}
+
+.title__span_subtitle {
+    color: $white;
+    margin: 0;
+}
+
+.title__button {
+    outline: none;
+    border: none;
+    background: $white;
+    border-radius: 8px;
+    width: 170px;
+    height: 50px;
+    color: $black;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 25px 0 0;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.40);
+    cursor: pointer;
+}
